@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home">Home</a></li>
+                <li><a href="#" data-section="coursework">Coursework</a></li>
+                <li><a href="#" data-section="resume">Resume</a></li>
+                <li><a href="#" data-section="projects">Projects</a></li>
+                <li><a href="#" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>
+                Hey! My name is Cameron Tedder, I am currently a student at Georgia
+                State University and I am pursuing my degree in Computer Science 
+                to become a software developer.
+            </p>
+        </div>
+    </section>
+
+    <section id="coursework" class="section coursework">
+        <h1>Coursework</h1>
+        <ul>
+            <li>Data Structures</li>
+            <li>Discrete Mathematics</li>
+            <li>Operating Systems</li>
+            <li>Linear Algebra</li>
+            <li>Algorithms</li>
+            <li>System-Level Programming</li>
+            <li>Computer Organization and Programming</li>
+            <li>Software Development</li>
+            <li>Fundamentals of Data Science</li>
+            <li>Programming Language Concepts</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section resume">
+        <h1>Resume</h1>
+        <embed src="ResumeforFinalProject.pdf" width="100%" height="600px" type="application/pdf">
+    </section>
+
+    <section id="projects" class="section projects">
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="project" id="project-1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i2CWxVyHsrA" frameborder="0" allowfullscreen></iframe>
+                <p>
+                    Mobile Flashcard Study App! My team and I came together to create
+                    a mobile application to help students study for there classes and exams
+                    using flashcards! 
+                </p>
+            </div>
+            <div class="project" id="project-2">
+                <div class="placeholder">
+                    <h2>Project 2</h2>
+                    <p>Temporary placeholder for projects I would like to add in the future.</p>
+                </div>
+            </div>
+            <div class="project" id="project-3">
+                <div class="placeholder">
+                    <h2>Project 3</h2>
+                    <p>Temporary placeholder for projects I would like to add in the future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h1>Contact Information</h1>
+        <ul class="contact-list">
+            <li>Email: camtedder10@gmail.com</li>
+            <li>Student Email: ctedder1@student.gsu.edu</li>
+            <li>Phone: 678-761-6392</li>
+        </ul>
+    </section>
+
+    <footer></footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
